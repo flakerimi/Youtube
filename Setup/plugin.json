@@ -1,0 +1,28 @@
+{
+    "title": "Youtube",
+    "version": "1.00",
+    "name": "Youtube",
+    "description": "Youtube Get your apiKey at https://console.developers.google.com/.",
+    "author": "Flakerim Ismani",
+    "options": [
+        {
+            "label": "Youtube Api Key",
+            "name": "apiKey",
+            "type": "text",
+            "default": "ENETER YOUR KEY"
+        },
+      {
+            "label": "Channel ID",
+            "name": "channelid",
+            "type": "text",
+            "default": "ENETER YOUR CHANNEL ID"
+        }
+		,
+      {
+            "label": "Limit Video items",
+            "name": "videoLimit",
+            "type": "text",
+            "default": "50"
+        }
+    ]
+}
